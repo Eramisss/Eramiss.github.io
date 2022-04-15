@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<!-- saved from url=(0044)https://164b74.creatium.site/progressteacher -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">.swal-icon--error{border-color:#f27474;-webkit-animation:animateErrorIcon .5s;animation:animateErrorIcon .5s}.swal-icon--error__x-mark{position:relative;display:block;-webkit-animation:animateXMark .5s;animation:animateXMark .5s}.swal-icon--error__line{position:absolute;height:5px;width:47px;background-color:#f27474;display:block;top:37px;border-radius:2px}.swal-icon--error__line--left{-webkit-transform:rotate(45deg);transform:rotate(45deg);left:17px}.swal-icon--error__line--right{-webkit-transform:rotate(-45deg);transform:rotate(-45deg);right:16px}@-webkit-keyframes animateErrorIcon{0%{-webkit-transform:rotateX(100deg);transform:rotateX(100deg);opacity:0}to{-webkit-transform:rotateX(0deg);transform:rotateX(0deg);opacity:1}}@keyframes animateErrorIcon{0%{-webkit-transform:rotateX(100deg);transform:rotateX(100deg);opacity:0}to{-webkit-transform:rotateX(0deg);transform:rotateX(0deg);opacity:1}}@-webkit-keyframes animateXMark{0%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}50%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}80%{-webkit-transform:scale(1.15);transform:scale(1.15);margin-top:-6px}to{-webkit-transform:scale(1);transform:scale(1);margin-top:0;opacity:1}}@keyframes animateXMark{0%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}50%{-webkit-transform:scale(.4);transform:scale(.4);margin-top:26px;opacity:0}80%{-webkit-transform:scale(1.15);transform:scale(1.15);margin-top:-6px}to{-webkit-transform:scale(1);transform:scale(1);margin-top:0;opacity:1}}.swal-icon--warning{border-color:#f8bb86;-webkit-animation:pulseWarning .75s infinite alternate;animation:pulseWarning .75s infinite alternate}.swal-icon--warning__body{width:5px;height:47px;top:10px;border-radius:2px;margin-left:-2px}.swal-icon--warning__body,.swal-icon--warning__dot{position:absolute;left:50%;background-color:#f8bb86}.swal-icon--warning__dot{width:7px;height:7px;border-radius:50%;margin-left:-4px;bottom:-11px}@-webkit-keyframes pulseWarning{0%{border-color:#f8d486}to{border-color:#f8bb86}}@keyframes pulseWarning{0%{border-color:#f8d486}to{border-color:#f8bb86}}.swal-icon--success{border-color:#a5dc86}.swal-icon--success:after,.swal-icon--success:before{content:"";border-radius:50%;position:absolute;width:60px;height:120px;background:#fff;-webkit-transform:rotate(45deg);transform:rotate(45deg)}.swal-icon--success:before{border-radius:120px 0 0 120px;top:-7px;left:-33px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:60px 60px;transform-origin:60px 60px}.swal-icon--success:after{border-radius:0 120px 120px 0;top:-11px;left:30px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-transform-origin:0 60px;transform-origin:0 60px;-webkit-animation:rotatePlaceholder 4.25s ease-in;animation:rotatePlaceholder 4.25s ease-in}.swal-icon--success__ring{width:80px;height:80px;border:4px solid hsla(98,55%,69%,.2);border-radius:50%;box-sizing:content-box;position:absolute;left:-4px;top:-4px;z-index:2}.swal-icon--success__hide-corners{width:5px;height:90px;background-color:#fff;padding:1px;position:absolute;left:28px;top:8px;z-index:1;-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}.swal-icon--success__line{height:5px;background-color:#a5dc86;display:block;border-radius:2px;position:absolute;z-index:2}.swal-icon--success__line--tip{width:25px;left:14px;top:46px;-webkit-transform:rotate(45deg);transform:rotate(45deg);-webkit-animation:animateSuccessTip .75s;animation:animateSuccessTip .75s}.swal-icon--success__line--long{width:47px;right:8px;top:38px;-webkit-transform:rotate(-45deg);transform:rotate(-45deg);-webkit-animation:animateSuccessLong .75s;animation:animateSuccessLong .75s}@-webkit-keyframes rotatePlaceholder{0%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}5%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}12%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}to{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}}@keyframes rotatePlaceholder{0%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}5%{-webkit-transform:rotate(-45deg);transform:rotate(-45deg)}12%{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}to{-webkit-transform:rotate(-405deg);transform:rotate(-405deg)}}@-webkit-keyframes animateSuccessTip{0%{width:0;left:1px;top:19px}54%{width:0;left:1px;top:19px}70%{width:50px;left:-8px;top:37px}84%{width:17px;left:21px;top:48px}to{width:25px;left:14px;top:45px}}@keyframes animateSuccessTip{0%{width:0;left:1px;top:19px}54%{width:0;left:1px;top:19px}70%{width:50px;left:-8px;top:37px}84%{width:17px;left:21px;top:48px}to{width:25px;left:14px;top:45px}}@-webkit-keyframes animateSuccessLong{0%{width:0;right:46px;top:54px}65%{width:0;right:46px;top:54px}84%{width:55px;right:0;top:35px}to{width:47px;right:8px;top:38px}}@keyframes animateSuccessLong{0%{width:0;right:46px;top:54px}65%{width:0;right:46px;top:54px}84%{width:55px;right:0;top:35px}to{width:47px;right:8px;top:38px}}.swal-icon--info{border-color:#c9dae1}.swal-icon--info:before{width:5px;height:29px;bottom:17px;border-radius:2px;margin-left:-2px}.swal-icon--info:after,.swal-icon--info:before{content:"";position:absolute;left:50%;background-color:#c9dae1}.swal-icon--info:after{width:7px;height:7px;border-radius:50%;margin-left:-3px;top:19px}.swal-icon{width:80px;height:80px;border-width:4px;border-style:solid;border-radius:50%;padding:0;position:relative;box-sizing:content-box;margin:20px auto}.swal-icon:first-child{margin-top:32px}.swal-icon--custom{width:auto;height:auto;max-width:100%;border:none;border-radius:0}.swal-icon img{max-width:100%;max-height:100%}.swal-title{color:rgba(0,0,0,.65);font-weight:600;text-transform:none;position:relative;display:block;padding:13px 16px;font-size:27px;line-height:normal;text-align:center;margin-bottom:0}.swal-title:first-child{margin-top:26px}.swal-title:not(:first-child){padding-bottom:0}.swal-title:not(:last-child){margin-bottom:13px}.swal-text{font-size:16px;position:relative;float:none;line-height:normal;vertical-align:top;text-align:left;display:inline-block;margin:0;padding:0 10px;font-weight:400;color:rgba(0,0,0,.64);max-width:calc(100% - 20px);overflow-wrap:break-word;box-sizing:border-box}.swal-text:first-child{margin-top:45px}.swal-text:last-child{margin-bottom:45px}.swal-footer{text-align:right;padding-top:13px;margin-top:13px;padding:13px 16px;border-radius:inherit;border-top-left-radius:0;border-top-right-radius:0}.swal-button-container{margin:5px;display:inline-block;position:relative}.swal-button{background-color:#7cd1f9;color:#fff;border:none;box-shadow:none;border-radius:5px;font-weight:600;font-size:14px;padding:10px 24px;margin:0;cursor:pointer}.swal-button:not([disabled]):hover{background-color:#78cbf2}.swal-button:active{background-color:#70bce0}.swal-button:focus{outline:none;box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(43,114,165,.29)}.swal-button[disabled]{opacity:.5;cursor:default}.swal-button::-moz-focus-inner{border:0}.swal-button--cancel{color:#555;background-color:#efefef}.swal-button--cancel:not([disabled]):hover{background-color:#e8e8e8}.swal-button--cancel:active{background-color:#d7d7d7}.swal-button--cancel:focus{box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(116,136,150,.29)}.swal-button--danger{background-color:#e64942}.swal-button--danger:not([disabled]):hover{background-color:#df4740}.swal-button--danger:active{background-color:#cf423b}.swal-button--danger:focus{box-shadow:0 0 0 1px #fff,0 0 0 3px rgba(165,43,43,.29)}.swal-content{padding:0 20px;margin-top:20px;font-size:medium}.swal-content:last-child{margin-bottom:20px}.swal-content__input,.swal-content__textarea{-webkit-appearance:none;background-color:#fff;border:none;font-size:14px;display:block;box-sizing:border-box;width:100%;border:1px solid rgba(0,0,0,.14);padding:10px 13px;border-radius:2px;transition:border-color .2s}.swal-content__input:focus,.swal-content__textarea:focus{outline:none;border-color:#6db8ff}.swal-content__textarea{resize:vertical}.swal-button--loading{color:transparent}.swal-button--loading~.swal-button__loader{opacity:1}.swal-button__loader{position:absolute;height:auto;width:43px;z-index:2;left:50%;top:50%;-webkit-transform:translateX(-50%) translateY(-50%);transform:translateX(-50%) translateY(-50%);text-align:center;pointer-events:none;opacity:0}.swal-button__loader div{display:inline-block;float:none;vertical-align:baseline;width:9px;height:9px;padding:0;border:none;margin:2px;opacity:.4;border-radius:7px;background-color:hsla(0,0%,100%,.9);transition:background .2s;-webkit-animation:swal-loading-anim 1s infinite;animation:swal-loading-anim 1s infinite}.swal-button__loader div:nth-child(3n+2){-webkit-animation-delay:.15s;animation-delay:.15s}.swal-button__loader div:nth-child(3n+3){-webkit-animation-delay:.3s;animation-delay:.3s}@-webkit-keyframes swal-loading-anim{0%{opacity:.4}20%{opacity:.4}50%{opacity:1}to{opacity:.4}}@keyframes swal-loading-anim{0%{opacity:.4}20%{opacity:.4}50%{opacity:1}to{opacity:.4}}.swal-overlay{position:fixed;top:0;bottom:0;left:0;right:0;text-align:center;font-size:0;overflow-y:auto;background-color:rgba(0,0,0,.4);z-index:10000;pointer-events:none;opacity:0;transition:opacity .3s}.swal-overlay:before{content:" ";display:inline-block;vertical-align:middle;height:100%}.swal-overlay--show-modal{opacity:1;pointer-events:auto}.swal-overlay--show-modal .swal-modal{opacity:1;pointer-events:auto;box-sizing:border-box;-webkit-animation:showSweetAlert .3s;animation:showSweetAlert .3s;will-change:transform}.swal-modal{width:478px;opacity:0;pointer-events:none;background-color:#fff;text-align:center;border-radius:5px;position:static;margin:20px auto;display:inline-block;vertical-align:middle;-webkit-transform:scale(1);transform:scale(1);-webkit-transform-origin:50% 50%;transform-origin:50% 50%;z-index:10001;transition:opacity .2s,-webkit-transform .3s;transition:transform .3s,opacity .2s;transition:transform .3s,opacity .2s,-webkit-transform .3s}@media (max-width:500px){.swal-modal{width:calc(100% - 20px)}}@-webkit-keyframes showSweetAlert{0%{-webkit-transform:scale(1);transform:scale(1)}1%{-webkit-transform:scale(.5);transform:scale(.5)}45%{-webkit-transform:scale(1.05);transform:scale(1.05)}80%{-webkit-transform:scale(.95);transform:scale(.95)}to{-webkit-transform:scale(1);transform:scale(1)}}@keyframes showSweetAlert{0%{-webkit-transform:scale(1);transform:scale(1)}1%{-webkit-transform:scale(.5);transform:scale(.5)}45%{-webkit-transform:scale(1.05);transform:scale(1.05)}80%{-webkit-transform:scale(.95);transform:scale(.95)}to{-webkit-transform:scale(1);transform:scale(1)}}</style>
+
+    <!-- PLUGINS -->
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <meta name="generator" content="Creatium">
+
+    <title>teacher — progressteacher</title>
+
+    
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    
+<!--[if IE]><link rel="shortcut icon" href="https://i.1.creatium.io/16/66/12/45c5c460a8bffc6b405443cdeba761693e/32x32/favicon.png"><![endif]-->
+<link rel="apple-touch-icon-precomposed" href="https://i.1.creatium.io/16/66/12/45c5c460a8bffc6b405443cdeba761693e/180x180/favicon.png">
+<link rel="icon" href="https://i.1.creatium.io/16/66/12/45c5c460a8bffc6b405443cdeba761693e/196x196/favicon.png">
+                <script>
+                window.creatium = {"creatium":true,"visit_id":null,"site_id":126039,"page_id":796976,"content_id":778109,"lang":"ru","time":1649961772,"screens":"screens-xs-md-lg","animations":[],"cookies":{"alert":0,"message":""},"integrations":[],"variables":{"system-year":{"id":"system-year","type":"string","name":"\u0422\u0435\u043a\u0443\u0449\u0438\u0439 \u0433\u043e\u0434","value":"2022"},"system-month":{"id":"system-month","type":"string","name":"\u0422\u0435\u043a\u0443\u0449\u0438\u0439 \u043c\u0435\u0441\u044f\u0446 (01-12)","value":"04"},"system-day":{"id":"system-day","type":"string","name":"\u0422\u0435\u043a\u0443\u0449\u0438\u0439 \u0434\u0435\u043d\u044c \u043c\u0435\u0441\u044f\u0446\u0430 (01-31)","value":"14"},"system-domain":{"id":"system-domain","type":"string","name":"\u0410\u0434\u0440\u0435\u0441 \u0441\u0430\u0439\u0442\u0430","value":"164b74.creatium.site"},"system-timestamp-iso8601":{"id":"system-timestamp-iso8601","type":"string","name":"\u041c\u0435\u0442\u043a\u0430 \u0432\u0440\u0435\u043c\u0435\u043d\u0438 (\u0441\u0442\u0440\u043e\u043a\u0430)","value":"2022-04-14T18:42:52+0000"},"system-timestamp-unix":{"id":"system-timestamp-unix","type":"number","name":"\u041c\u0435\u0442\u043a\u0430 \u0432\u0440\u0435\u043c\u0435\u043d\u0438 (\u0447\u0438\u0441\u043b\u043e)","value":1649961772}},"miscellaneous":{"cbr":[]},"misc":{"cbr":[],"cdn_host":"i.1.creatium.io"},"allow_cookies":true,"site_options":{"captcha_signup":false,"captcha_orders":false,"member_allow_signup":false,"member_allow_auth":false},"member":null,"async":{"js":["\/app\/4.1\/async\/?path=progressteacher","\/assets\/4.1\/vendors-async.js?v=1649864402","\/assets\/4.1\/swiper-async.js?v=1649864402"],"css":["\/assets\/4.1\/vendors-async.css?v=1649864402","\/assets\/4.1\/hovercss-async.css?v=1649864402"],"js_adaptive_sections":"\/app\/4.1\/adaptive-sections\/?path=progressteacher"},"device":"other","scroll":{"snapping":false}};
+                window.cr = window.creatium;
+                window.plp = window.creatium;
+                window.error_handler = function (e, fn_id) {
+                    window.console && console.log && console.log(fn_id);
+                    window['error_handler_' + fn_id] && eval(window['error_handler_' + fn_id]);
+                    window.console && console.error && console.error(e.message);
+                };
+                    cr.api = function (v, cb) { cr.api.queue.push([v, cb]) };
+    cr.api.queue = [];
+    cr.layout = {"top":0,"left":0};
+            </script>
+    <!-- CORE -->
+    <link type="text/css" rel="stylesheet" href="./teacher — progressteacher_files/vendors.css"><link type="text/css" rel="stylesheet" href="./teacher — progressteacher_files/default.css"><link type="text/css" rel="stylesheet" href="./teacher — progressteacher_files/nodes.css">    <script defer="" type="text/javascript" src="./teacher — progressteacher_files/vendors.js.Без названия"></script><script defer="" type="text/javascript" src="./teacher — progressteacher_files/default.js.Без названия"></script><script defer="" type="text/javascript" src="./teacher — progressteacher_files/nodes.js.Без названия"></script><link rel="preload" href="./teacher — progressteacher_files/vendors-sync.js.Без названия" as="script">
+            <style> 
+.node.css1 > .wrapper1 { background-color: rgb(255, 114, 92) }
+.node.css1  { color: #FFF }
+.node.css1  > .padding_top { padding-top: 0px }
+.node.css1  > .padding_bottom { padding-bottom: 0px }
+.node.css1 a { color: rgb(230, 53, 25) }
+.node.css2  { color: #FFF; padding-top: 0px; padding-bottom: 0px; padding-left: 5px; padding-right: 5px }
+.node.css2 a { color: rgb(230, 53, 25) }
+.node.css3  { color: #FFF; padding-top: 14px; padding-bottom: 0px; padding-left: 5px; padding-right: 5px }
+.node.css3 a { color: rgb(230, 53, 25) }
+.node.css4 .bgimage { height: 71px; background-position: left }
+.node.css4 img.selectable { max-height: 71px }
+.node.css4 .proportions { width: calc(var(--width) / var(--height) * 71); padding-top: 71px }
+.node.css5  { color: #FFF; padding-top: 43px; padding-bottom: 36px; padding-left: 5px; padding-right: 5px }
+.node.css5 a { color: rgb(230, 53, 25) }
+.node.css6 > .wrapper1 { background-position: center center; background-size: cover; background-repeat: no-repeat }
+.node.css6 > .wrapper1 > .wrapper2 { background-color: rgba(0,0,0,0) }
+.node.css6  { color: #FFF }
+.node.css6  > .padding_top { padding-top: 0px }
+.node.css6  > .padding_bottom { padding-bottom: 1px }
+.node.css6 a { color: rgb(230, 25, 25) }
+.node.css7  { color: #FFF; padding-top: 10px; padding-bottom: 294px; padding-left: 0px; padding-right: 5px }
+.node.css7 a { color: rgb(230, 25, 25) }
+.node.css8  { color: #FFF; padding-top: 10px; padding-bottom: 164px; padding-left: 5px; padding-right: 5px }
+.node.css8 a { color: rgb(230, 25, 25) }
+.node.css9 > .max-width { max-width: 245px; margin-left: 0; margin-right: auto }
+.node.css10  { color: #FFF; padding-top: 0px; padding-bottom: 10px; padding-left: 5px; padding-right: 5px }
+.node.css10 a { color: rgb(230, 25, 25) }
+.textable.css11  { text-align: left; font-family: "Raleway Bold"; font-size: 56px; line-height: 1.1; letter-spacing: 0em; color: rgb(0, 0, 0); opacity: 1 }
+.screen-md .textable.css11  { font-size: 40px!important }
+.screen-sm .textable.css11  { font-size: 40px!important }
+.screen-xs .textable.css11  { font-size: 36px!important }
+.node.css12  { color: #FFF; padding-top: 10px; padding-bottom: 10px; padding-left: 5px; padding-right: 5px }
+.node.css12 a { color: rgb(230, 25, 25) }
+.textable.css13  { text-align: left; font-family: "PT Sans Caption"; font-size: 16px; line-height: 1.6; letter-spacing: 0em; color: rgb(0, 0, 0); opacity: 1 }
+.node.css14  { color: #FFF; padding-top: 30px; padding-bottom: 0px; padding-left: 22px; padding-right: 300px }
+.node.css14 a { color: rgb(230, 25, 25) }
+.btn.css15 { text-align: center } .btn.css15 { background-color: rgb(255, 114, 92);border-top-left-radius: 10px;border-top-right-radius: 10px;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;border-style: solid;border-top-width: 0px;border-bottom-width: 2px;border-left-width: 0px;border-right-width: 0px;border-color: rgb(255, 54, 23);padding-top: 17px;padding-bottom: 17px;font-size: 15px;letter-spacing: 0.1em; text-transform: uppercase;color: rgb(255, 255, 255)!important; } .btn.css15:hover, .btn.css15.hover { background-color: rgb(255, 84, 57);border-color: rgb(222, 30, 0);color: rgb(255, 255, 255)!important; } .btn.css15:active, .btn.css15.active { background-color: rgb(255, 57, 26);border-color: rgb(250, 34, 0);border-top-width: 2px;border-bottom-width: 0px;color: rgb(255, 255, 255)!important; } .btn.css15:before {  } .btn.css15:active:before, .btn.css15.active:before { background-color: rgb(255, 57, 26); }
+.modal.css16 .modal-dialog { width: 320px }
+.metahtml.css17 .menu1-root {
+  position: relative;
+  background-color: rgb(0, 0, 0);
+  outline: none;
+  opacity: 0;
+  transform: translateX(100%);
+  transition: 250ms transform, 250ms opacity;
+  box-shadow: 5px 0 30px rgba(0, 0, 0, 0.1);
+}
+
+.metahtml.css17 .menu1-root.is-active {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.metahtml.css17 .menu1-root.is-hiding {
+  opacity: 0;
+  transform: translateX(100%);
+}
+
+.metahtml.css17 .menu1-header {
+  padding: 20px 20px;
+  border-bottom: 1px solid rgb(26, 26, 26);
+  color: rgb(255, 255, 255);
+  min-height: 16px;
+}
+
+.metahtml.css17 .menu1-body {
+  position: relative;
+  padding: 20px 20px;
+}
+
+.metahtml.css17 .menu1-title {
+  margin-right: 20px;
+  text-align: left;
+}
+
+.metahtml.css17 .menu1-close {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  padding: 0;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  float: right;
+  font-size: 24px;
+  line-height: 1;
+  opacity: 0.5;
+  margin-top: -4px;
+}
+
+.metahtml.css17 .menu1-close:hover {
+  text-decoration: none;
+  cursor: pointer;
+  opacity: 0.75;
+}
+.textable.css18  { text-align: left; font-family: "PT Sans Caption"; font-size: 16px; line-height: 1.4; letter-spacing: 0em; opacity: 1 }
+.node.css19  { color: #FFF; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px }
+.node.css19 a { color: rgb(230, 25, 25) }
+.textable.css20  { text-align: left; font-family: "PT Sans Caption"; font-size: 16px; line-height: 1.4; letter-spacing: 0em; opacity: 1 }
+.screen-xs .textable.css20  { text-align: center!important }
+.node.css21 > .wrapper1 { background-color: rgb(255, 114, 92) }
+.node.css21  { color: #FFF }
+.node.css21  > .padding_top { padding-top: 35px }
+.node.css21  > .padding_bottom { padding-bottom: 60px }
+.node.css21 a { color: rgb(230, 53, 25) }
+.node.css22 .s-elements-cell { width: 33.333333333333336% }
+.node.css22 .s-elements-grid { margin: 0 -5px }
+.node.css22 .s-elements-cellwrapper { padding: 5px 5px }
+.screen-sm .node.css22 .s-elements-cell { width: 50%!important }
+.screen-xs .node.css22 .s-elements-cell { width: 100%!important }
+.node.css23 > .wrapper1 { background-color: rgb(255, 114, 92); border-radius: 5px }
+.node.css23  { color: #FFF; padding-top: 20px; padding-bottom: 20px; padding-left: 20px; padding-right: 20px }
+.node.css23 a { color: rgb(230, 53, 25) }
+.node.css24  { color: #FFF; padding-top: 10px; padding-bottom: 10px; padding-left: 5px; padding-right: 5px }
+.node.css24 a { color: rgb(230, 53, 25) }
+.svgicon.css25 path, .svgicon.css25 polygon, .svgicon.css25 circle, .svgicon.css25 ellipse, .svgicon.css25 rect { fill: rgb(255, 255, 255) } .svgicon.css25 defs > path { fill: none }.svgicon.css25 [fill="none"] { fill: none }
+.svgicon.css26 .st0{fill:none;stroke:rgb(255, 255, 255);stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+.textable.css27  { text-align: left; font-family: "Raleway Bold"; font-size: 20px; line-height: 1.2; letter-spacing: 0em; opacity: 1 }
+.textable.css28  { text-align: left; font-family: "PT Sans Caption"; font-size: 16px; line-height: 1.6; letter-spacing: 0em; opacity: 0.75 }
+.node.css29 > .wrapper1 { background-position: center center; background-size: cover; background-repeat: no-repeat }
+.node.css29 > .wrapper1 > .wrapper2 { background-color: rgba(0,0,0,0) }
+.node.css29  { color: #FFF }
+.node.css29  > .padding_top { padding-top: 150px }
+.node.css29  > .padding_bottom { padding-bottom: 174px }
+.node.css29 a { color: rgb(230, 25, 25) }
+.textable.css30  { text-align: left; font-family: "Raleway Bold"; font-size: 32px; line-height: 1.3; letter-spacing: 0em; opacity: 1 }
+.screen-md .textable.css30  { font-size: 28px!important }
+.screen-sm .textable.css30  { font-size: 28px!important }
+.screen-xs .textable.css30  { text-align: center!important; font-size: 24px!important }
+.node.css31  { color: #FFF; padding-top: 0px; padding-bottom: 0px; padding-left: 5px; padding-right: 5px }
+.screen-xs .node.css31  { padding-top: 30px!important }
+.node.css31 a { color: rgb(230, 25, 25) }
+.metahtml.css32 .video-button3 {
+  display: inline-block;
+  width: 75px;
+  height: 75px;
+  border-radius: 100%;
+  line-height: 75px;
+  text-align: center;
+  font-size: 25px;
+  padding-left: 4.6875px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(38, 58, 137);
+  box-shadow: 0 6.666666666666667px 20px 0px rgba(0, 0, 0, 0.5);
+}
+
+.metahtml.css32 .video-button3-bg {
+  display: inline-block;
+  position: relative;
+}
+
+.metahtml.css32 .video-button3-bgimg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+}
+
+.metahtml.css32 .video-button3-bgimg:before {
+  content: ' ';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.25);
+}
+
+.metahtml.css32 .video-button3-bg img {
+  width: 440px;
+  max-width: 100%;
+}
+
+.metahtml.css32 .video-button3-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.metahtml.css32 .expan-controller + .expan {
+  display: none;
+}
+
+.metahtml.css32 .expan {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 250;
+}
+.modal.css33 .modal-dialog { width: 720px }
+.metahtml.css34 .modal2-root {
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  border-radius: 0px;
+  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+  background-clip: padding-box;
+  outline: none;
+  opacity: 0;
+  transform: translateY(-25px);
+  transition: 300ms all ease-out;
+}
+
+.metahtml.css34 .modal2-root.is-active {
+  opacity: 1;
+  transform: translateY(0);
+}
+.node.css35  { color: #333; padding-top: 0px; padding-bottom: 0px; padding-left: 0px; padding-right: 0px }
+.node.css35 a { color: rgb(230, 25, 25) }
+.node.css36 > .wrapper1 { background-color: rgb(20, 20, 20) }
+.node.css36  { color: #FFF; padding-top: 10px; padding-bottom: 10px; padding-left: 5px; padding-right: 5px }
+.node.css36 a { color: rgb(230, 25, 25) }
+.textable.css37  { text-align: center; font-family: "PT Sans Caption"; font-size: 14px; line-height: 1.5999999999999999; letter-spacing: 0em; opacity: 1 }
+.screen-xs .textable.css37  { text-align: center!important }
+.node.css38 > .wrapper1 { background-position: center center; background-size: cover; background-repeat: no-repeat }
+.node.css38 > .wrapper1 > .wrapper2 { background-color: rgba(0,0,0,0) }
+.node.css38  { color: #FFF }
+.node.css38  > .padding_top { padding-top: 0px }
+.node.css38  > .padding_bottom { padding-bottom: 100px }
+.node.css38 a { color: rgb(230, 25, 25) }
+.node.css39  { color: #FFF; padding-top: 30px; padding-bottom: 12px; padding-left: 5px; padding-right: 5px }
+.node.css39 a { color: rgb(230, 25, 25) }
+.node.css40  { color: #FFF; padding-top: 0px; padding-bottom: 10px; padding-left: 5px; padding-right: 49px }
+.node.css40 a { color: rgb(230, 25, 25) }
+.node.css41 img { width: calc(1 * var(--width)) }
+.node.css41 .bgnormal { text-align: right }
+.screen-xs .node.css41 .bgnormal { text-align: center!important }
+.node.css42 > .wrapper1 { background-position: center center; background-size: contain; background-repeat: no-repeat }
+.node.css42 > .wrapper1 > .wrapper2 { background-color: rgba(0,0,0,0) }
+.node.css42  { color: #FFF; padding-top: 10px; padding-bottom: 10px; padding-left: 10px; padding-right: 10px }
+.node.css42 a { color: rgb(25, 107, 230) }
+.node.css43  { color: #FFF; padding-top: 10px; padding-bottom: 10px; padding-left: 5px; padding-right: 5px }
+.node.css43 a { color: rgb(25, 107, 230) }
+.node.css44 .bgimage { height: 522px; background-position: center }
+.node.css45  { color: #FFF; padding-top: 7px; padding-bottom: 5px; padding-left: 20px; padding-right: 5px }
+.node.css45 a { color: rgb(230, 25, 25) }
+.textable.css46  { text-align: left; font-family: "Raleway Bold"; font-size: 18px; line-height: 1.6; letter-spacing: 0em; color: rgb(0, 0, 0); opacity: 1 }
+.node.css47  { color: #FFF; padding-top: 5px; padding-bottom: 10px; padding-left: 20px; padding-right: 5px }
+.node.css47 a { color: rgb(230, 25, 25) }
+.textable.css48  { text-align: left; font-family: "Raleway Bold"; font-size: 48px; line-height: 1.1; letter-spacing: 0em; color: rgb(0, 0, 0); opacity: 1 }
+.screen-md .textable.css48  { font-size: 36px!important }
+.screen-sm .textable.css48  { font-size: 36px!important }
+.screen-xs .textable.css48  { font-size: 24px!important }
+.node.css49  { color: #FFF; padding-top: 10px; padding-bottom: 10px; padding-left: 20px; padding-right: 5px }
+.node.css49 a { color: rgb(230, 25, 25) }
+.node.css50 li { background-size: 24px 24px; min-height: 24px; padding-left: 35px }
+.node.css50 li + li { margin-top: 17.04px }
+.node.css51  { color: #FFF; padding-top: 30px; padding-bottom: 10px; padding-left: 20px; padding-right: 5px }
+.node.css51 a { color: rgb(230, 25, 25) }
+.btn.css52 { text-align: center } .btn.css52 { background-color: rgb(231, 81, 81);border-top-left-radius: 10px;border-top-right-radius: 10px;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;border-style: solid;border-top-width: 0px;border-bottom-width: 2px;border-left-width: 0px;border-right-width: 0px;border-color: rgb(219, 30, 30);padding-top: 17px;padding-bottom: 17px;font-size: 14px;color: rgb(255, 255, 255)!important; } .btn.css52:hover, .btn.css52.hover { background-color: rgb(227, 54, 54);border-color: rgb(175, 24, 24);color: rgb(255, 255, 255)!important; } .btn.css52:active, .btn.css52.active { background-color: rgb(222, 31, 31);border-color: rgb(197, 27, 27);border-top-width: 2px;border-bottom-width: 0px;color: rgb(255, 255, 255)!important; } .btn.css52:before {  } .btn.css52:active:before, .btn.css52.active:before { background-color: rgb(222, 31, 31); }
+.node.css53 > .wrapper1 { background-color: white }
+.node.css53  { color: #333 }
+.node.css53  > .padding_top { padding-top: 80px }
+.node.css53  > .padding_bottom { padding-bottom: 90px }
+.node.css53 a { color: rgb(25, 67, 230) }
+.node.css54 .s-elements-cell { width: 33.333333333333336% }
+.node.css54 .s-elements-grid { margin: 0 -20px }
+.node.css54 .s-elements-cellwrapper { padding: 20px 20px }
+.screen-xs .node.css54 .s-elements-cell { width: 100%!important }
+.node.css55  { color: #333; padding-top: 5px; padding-bottom: 55px; padding-left: 5px; padding-right: 5px }
+.node.css55 a { color: rgb(25, 67, 230) }
+.textable.css56  { text-align: center; font-family: "Raleway Bold"; font-size: 48px; line-height: 1.1; letter-spacing: 0em; opacity: 1 }
+.screen-xs .textable.css56  { text-align: center!important; font-size: 38px!important }
+.node.css57  { color: #333; padding-top: 32px; padding-bottom: 32px; padding-left: 32px; padding-right: 32px }
+.node.css57 > .wrapper1 { border-radius: 6px; border-width: 2px; border-style: solid; border-color: rgb(235, 235, 235) }
+.node.css57 a { color: rgb(25, 67, 230) }
+.node.css58  { color: #333; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px }
+.node.css58 a { color: rgb(25, 67, 230) }
+.textable.css59  { text-align: center; font-family: "Raleway Bold"; font-size: 14px; line-height: 1.2571428571428573; letter-spacing: 0.1142857142857143em; opacity: 1 }
+.screen-xs .textable.css59  { text-align: center!important }
+.node.css60  { color: #333; padding-top: 14px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px }
+.node.css60 a { color: rgb(25, 67, 230) }
+.textable.css61  { text-align: center; font-family: "Raleway Bold"; font-size: 22px; line-height: 1.4; letter-spacing: 0em; opacity: 0.5 }
+.screen-xs .textable.css61  { text-align: center!important }
+.node.css62  { color: #333; padding-top: 26px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px }
+.node.css62 a { color: rgb(25, 67, 230) }
+.node.css63 .bgimage { height: 222px; background-position: center }
+.node.css63 img.selectable { max-height: 222px }
+.node.css63 .proportions { width: calc(var(--width) / var(--height) * 222); padding-top: 222px }
+.node.css64 > .wrapper1 { background-color: white }
+.node.css64  { color: #333 }
+.node.css64  > .padding_top { padding-top: 60px }
+.node.css64  > .padding_bottom { padding-bottom: 60px }
+.node.css64 a { color: rgb(25, 67, 230) }
+.metahtml.css65 .slider822-root {
+  display: flex;
+  flex-direction: row;
+}
+
+.metahtml.css65 .slider822-container {
+  flex-grow: 1;
+}
+
+.metahtml.css65 .slider822-buttons {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.metahtml.css65 .slider822-previous,
+.metahtml.css65 .slider822-next {
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+  font-size: 13.333333333333334px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 100%;
+  border: 0px solid rgba(51, 51, 51, 0.2);
+  color: rgb(255, 255, 255);
+  opacity: 0.8;
+  background-color: rgb(231, 165, 81);
+}
+
+.metahtml.css65 .slider822-previous {
+  margin-right: 8px;
+}
+
+.metahtml.css65 .slider822-previous:hover {
+  opacity: 1;
+}
+
+.metahtml.css65 .slider822-previous i {
+  margin-right: 2.6666666666666665px;
+}
+
+.metahtml.css65 .slider822-next:hover {
+  opacity: 1;
+}
+
+.metahtml.css65 .slider822-next i {
+  margin-left: 2.6666666666666665px;
+}
+
+.screen-xs .metahtml.css65 .slider822-root {
+  flex-direction: column-reverse;
+}
+
+.screen-xs .metahtml.css65 .slider822-buttons {
+  margin: 0;
+  margin-bottom: 10px;
+}
+.node.css66  { color: #333; padding-top: 10px; padding-bottom: 10px; padding-left: 5px; padding-right: 5px }
+.node.css66 a { color: rgb(25, 67, 230) }
+.textable.css67  { text-align: left; font-family: "Raleway Bold"; font-size: 30px; line-height: 1.2; letter-spacing: 0em; opacity: 1 }
+.screen-md .textable.css67  { font-size: 24px!important }
+.screen-sm .textable.css67  { font-size: 24px!important }
+.screen-xs .textable.css67  { text-align: center!important; font-size: 20px!important }
+.node.css68  { color: #333; padding-top: 30px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px }
+.node.css68 a { color: rgb(25, 67, 230) }
+.textable.css69  { text-align: left; font-family: "Raleway Bold"; font-size: 18px; line-height: 1.2; letter-spacing: 0.1em; opacity: 1 }
+.screen-xs .textable.css69  { text-align: center!important }
+.textable.css70  { text-align: left; font-family: "PT Sans Caption"; font-size: 16px; line-height: 1.6; letter-spacing: 0em; opacity: 0.65 }
+.screen-xs .textable.css70  { text-align: center!important }
+.node.css71 > .wrapper1 { background-position: center center; background-size: contain; background-repeat: no-repeat }
+.node.css71 > .wrapper1 > .wrapper2 { background-color: rgba(0,0,0,0) }
+.node.css71  { color: #FFF; padding-top: 56px; padding-bottom: 51px; padding-left: 50px; padding-right: 50px }
+.node.css71 a { color: rgb(84, 25, 230) }
+.node.css72 > .wrapper1 { background-color: rgb(255, 114, 92); border-radius: 40px }
+.node.css72  { color: #FFF; padding-top: 15px; padding-bottom: 15px; padding-left: 15px; padding-right: 15px }
+.node.css72 a { color: rgb(230, 53, 25) }
+.node.css73 .bgimage { height: 428px; background-position: center }
+.node.css74 > .wrapper1 { background-color: white }
+.node.css74  { color: #333 }
+.node.css74  > .padding_top { padding-top: 60px }
+.node.css74  > .padding_bottom { padding-bottom: 90px }
+.node.css74 a { color: rgb(25, 67, 230) }
+.node.css75 .s-elements-cell { width: 20% }
+.node.css75 .s-elements-grid { margin: 0 -5px }
+.node.css75 .s-elements-cellwrapper { padding: 10px 5px }
+.screen-xs .node.css75 .s-elements-cell { width: 100%!important }
+.node.css76  { color: #333; padding-top: 15px; padding-bottom: 15px; padding-left: 5px; padding-right: 5px }
+.node.css76 a { color: rgb(25, 67, 230) }
+.textable.css77  { text-align: center; font-family: "Raleway Bold"; font-size: 16px; line-height: 1.6; letter-spacing: 0em; color: rgb(231, 81, 81); opacity: 1 }
+.node.css78  { color: #333; padding-top: 5px; padding-bottom: 50px; padding-left: 5px; padding-right: 5px }
+.node.css78 a { color: rgb(25, 67, 230) }
+.textable.css79  { text-align: center; font-family: "Raleway Bold"; font-size: 48px; line-height: 1.1; letter-spacing: 0em; opacity: 1 }
+.screen-xs .textable.css79  { text-align: center!important; font-size: 24px!important }
+.node.css80  { color: #333; padding-top: 20px; padding-bottom: 20px; padding-left: 5px; padding-right: 5px }
+.node.css80 > .wrapper1 { border-radius: 5px }
+.node.css80 a { color: rgb(25, 67, 230) }
+.node.css81 img { width: calc(1 * var(--width)) }
+.node.css81 .bgnormal { text-align: center }
+.node.css82  { color: #333; padding-top: 40px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px }
+.node.css82 a { color: rgb(25, 67, 230) }
+.btn.css83 { text-align: center } .btn.css83 { background-color: rgb(231, 165, 81);border-top-left-radius: 10px;border-top-right-radius: 10px;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;border-style: solid;border-top-width: 0px;border-bottom-width: 2px;border-left-width: 0px;border-right-width: 0px;border-color: rgb(219, 136, 30);padding-top: 17px;padding-bottom: 17px;font-size: 14px;color: rgb(255, 255, 255)!important; } .btn.css83:hover, .btn.css83.hover { background-color: rgb(227, 151, 54);border-color: rgb(175, 109, 24);color: rgb(255, 255, 255)!important; } .btn.css83:active, .btn.css83.active { background-color: rgb(222, 138, 31);border-color: rgb(197, 123, 27);border-top-width: 2px;border-bottom-width: 0px;color: rgb(255, 255, 255)!important; } .btn.css83:before {  } .btn.css83:active:before, .btn.css83.active:before { background-color: rgb(222, 138, 31); }
+.node.css84 > .wrapper1 { background-color: rgb(38, 58, 137) }
+.node.css84  { color: #FFF }
+.node.css84  > .padding_top { padding-top: 25px }
+.node.css84  > .padding_bottom { padding-bottom: 25px }
+.node.css84 a { color: rgb(25, 67, 230) }
+.node.css85  { color: #FFF; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 5px }
+.node.css85 a { color: rgb(25, 67, 230) }
+.node.css86  { color: #FFF; padding-top: 10px; padding-bottom: 10px; padding-left: 5px; padding-right: 5px }
+.screen-xs .node.css86  { padding-bottom: 5px!important }
+.node.css86 a { color: rgb(25, 67, 230) }
+.textable.css87  { text-align: left; font-family: "Raleway Bold"; font-size: 24px; line-height: 1.6; letter-spacing: 0em; opacity: 1 }
+.screen-xs .textable.css87  { text-align: center!important }
+.node.css88  { color: #FFF; padding-top: 10px; padding-bottom: 10px; padding-left: 5px; padding-right: 5px }
+.screen-xs .node.css88  { padding-bottom: 30px!important }
+.node.css88 a { color: rgb(25, 67, 230) }
+.textable.css89  { text-align: left; font-family: "PT Sans Caption"; font-size: 16px; line-height: 1.6; letter-spacing: 0em; opacity: 1 }
+.screen-xs .textable.css89  { text-align: center!important }
+.textable.css90  { text-align: right; font-family: "PT Sans Caption"; font-size: 16px; line-height: 1.4; letter-spacing: 0em; opacity: 1 }
+.screen-xs .textable.css90  { text-align: center!important }
+.area.screen-lg { min-width: 1200px; }.area.screen-lg .container { width: 1160px; }.area.screen-lg .container.soft { max-width: 1160px; }.area.screen-md { min-width: 960px; }.area.screen-md .container { width: 940px; }.area.screen-md .container.soft { max-width: 940px; }.area.screen-sm { min-width: 720px; }.area.screen-sm .container { width: 700px; }.area.screen-sm .container.soft { max-width: 700px; }.area.screen-xs .container { max-width: 717px; padding: 0 15px; }
+ </style>
+    
+    
+    <!-- PLUGINS -->
+    
+                    <script async="" type="text/javascript" src="./teacher — progressteacher_files/sv"></script>
+    
+    <!-- proxy-module cut-head -->
+<link type="text/css" rel="stylesheet" href="./teacher — progressteacher_files/vendors-async.css"><link type="text/css" rel="stylesheet" href="./teacher — progressteacher_files/hovercss-async.css"><script async="" type="text/javascript" src="./teacher — progressteacher_files/saved_resource"></script><script async="" type="text/javascript" src="./teacher — progressteacher_files/vendors-async.js.Без названия"></script><script async="" type="text/javascript" src="./teacher — progressteacher_files/swiper-async.js.Без названия"></script><script async="" type="text/javascript" src="./teacher — progressteacher_files/saved_resource(1)"></script><style>[_nghost-csj-c63]{font-family:Open Sans,sans-serif;color:#121212}</style></head>
+
+<body class="area font-text-ptsanscaption font-header-ralewaybold screen-lg">
+<div class="area-wrapper">
+<!-- PLUGINS -->
+
+<!-- HTML -->
+<script>
+            creatium.getWindowWidth = function () {
+                var windowWidth = window.innerWidth;
+
+                
+                if (window.innerWidth === 980 && !window.MSStream && /iPhone|iPod/.test(navigator.userAgent)) {
+                    windowWidth = window.outerWidth;
+                }
+                
+                return windowWidth;
+            }
+        
+            creatium.getScreen = function () {
+                var _windowWidth = creatium.getWindowWidth();
+
+                var lgWidth = 1220 + cr.layout._left_current;
+                var mdWidth = 992 + cr.layout._left_current;
+                var smWidth = 748 + cr.layout._left_current;
+
+                if (creatium.screens === 'screens-xs') return 'xs';
+                else if (creatium.screens === 'screens-sm') return 'sm';
+                else if (creatium.screens === 'screens-md') return 'md';
+                else if (creatium.screens === 'screens-lg') return 'lg';
+                else if (creatium.screens === 'screens-xs-sm') {
+                    if (_windowWidth >= smWidth) return 'sm';
+                    else return 'xs';
+                } else if (creatium.screens === 'screens-xs-md') {
+                    if (_windowWidth >= mdWidth) return 'md';
+                    else return 'xs';
+                } else if (creatium.screens === 'screens-xs-lg') {
+                    if (_windowWidth >= lgWidth) return 'lg';
+                    else return 'xs';
+                } else if (creatium.screens === 'screens-sm-md') {
+                    if (_windowWidth >= mdWidth) return 'md';
+                    else return 'sm';
+                } else if (creatium.screens === 'screens-sm-lg') {
+                    if (_windowWidth >= lgWidth) return 'lg';
+                    else return 'sm';
+                } else if (creatium.screens === 'screens-md-lg') {
+                    if (_windowWidth >= lgWidth) return 'lg';
+                    else return 'md';
+                } else if (creatium.screens === 'screens-xs-sm-md') {
+                    if (_windowWidth >= mdWidth) return 'md';
+                    else if (_windowWidth >= smWidth && _windowWidth < mdWidth) return 'sm';
+                    else return 'xs';
+                } else if (creatium.screens === 'screens-xs-sm-lg') {
+                    if (_windowWidth >= lgWidth) return 'lg';
+                    else if (_windowWidth >= smWidth && _windowWidth < lgWidth) return 'sm';
+                    else return 'xs';
+                } else if (creatium.screens === 'screens-xs-md-lg') {
+                    if (_windowWidth >= lgWidth) return 'lg';
+                    else if (_windowWidth >= mdWidth && _windowWidth < lgWidth) return 'md';
+                    else return 'xs';
+                } else if (creatium.screens === 'screens-sm-md-lg') {
+                    if (_windowWidth >= lgWidth) return 'lg';
+                    else if (_windowWidth >= mdWidth && _windowWidth < lgWidth) return 'md';
+                    else return 'sm';
+                } else if (creatium.screens === 'screens-xs-sm-md-lg') {
+                    if (_windowWidth >= lgWidth) return 'lg';
+                    else if (_windowWidth >= mdWidth && _windowWidth < lgWidth) return 'md';
+                    else if (_windowWidth >= smWidth && _windowWidth < mdWidth) return 'sm';
+                    else return 'xs';
+                }
+            }
+            
+            creatium.isLayoutMobile = function () {
+                if (creatium.getScreen() !== 'xs') return false;
+                return creatium.getWindowWidth() < 330 + cr.layout.left;
+            }
+
+            cr.layout._left_current = cr.layout.left;
+            if (cr.layout._left_current) {
+                document.body.classList.add('layout-left-active');
+            }
+
+            creatium.layout.mobile = creatium.isLayoutMobile();
+            if (creatium.layout.mobile) {
+                document.body.classList.add('layout-mobile');
+            }
+
+            creatium.screen = creatium.getScreen();
+            document.body.classList.add('screen-' + creatium.screen);
+
+            if (creatium.device) {
+                creatium.device_fix = false;
+                if (creatium.screen === 'xs' && creatium.device !== 'mobile') creatium.device_fix = true;
+                if (creatium.screen === 'sm' && creatium.device !== 'tablet') creatium.device_fix = true;
+                if (creatium.screen === 'md' && creatium.device !== 'other') creatium.device_fix = true;
+                if (creatium.screen === 'lg' && creatium.device !== 'other') creatium.device_fix = true;
+                if (creatium.device_fix) document.write('<script src="' + creatium.async.js_adaptive_sections + '"></scr'+'ipt>');                    
+            }
+        </script><div class="node section-clear section css1"><div class="padding_top"></div><div class="wrapper1"><div class="wrapper2"></div></div><div class="container"><div class="cont"><div class="node widget-grid widget css2"><div class="grid valign-top paddings-20px xs-wrap"><div class="gridwrap"><div class="col" style="width: 95%;"><div class="cont"><div class="node widget-image widget css3 css4"><div class="bgimage bg-contain" style="background-size: contain; border-radius: 0px; background-image: url(&quot;https://i.1.creatium.io/5b/cf/88/89e0b919f1b0e61fa9be43be390df5113a/172x71q8/logo231231.png&quot;);"><div class="inner"><img class="" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt=""><div class="proportions"></div></div></div><noscript><img src="https://i.1.creatium.io/5b/cf/88/89e0b919f1b0e61fa9be43be390df5113a/logo231231.png#%7B%22size%22:%5B174,72%5D,%22quality%22:8%7D" alt=""></noscript></div></div></div><div class="col" style="width: 5%;"><div class="cont"><div class="node widget-grid widget css5"><div class="grid valign-middle paddings-0px xs-wrap"><div class="gridwrap"><div class="col" style="width: 61.6667%;"><div class="cont"></div></div><div class="col" style="width: 5%;"><div class="cont"></div></div><div class="col" style="width: 33.3333%;"><div class="cont"></div></div></div></div></div></div></div></div></div></div></div></div><div class="padding_bottom"></div></div><div class="node section-clear section css6"><div class="padding_top"></div><div class="wrapper1" style="background-image: url(&quot;https://i.1.creatium.io/ff/33/a2/b276c0aee778e56b6caf02536fd598a43f/1903x1070q8/frame_83333333.png&quot;);"><div class="wrapper2"></div></div><div class="container"><div class="cont"><div class="node widget-grid widget css7"><div class="grid valign-middle paddings-40px xs-wrap"><div class="gridwrap"><div class="col" style="width: 53.2174%;"><div class="cont"><div class="node widget-max-width widget xs-hidden css8 css9"><div class="max-width" style="position: relative;"><div class="cont"></div></div></div><div class="node widget-text cr-text widget css10"><h1 class="textable css11">Progress Teacher - твой путь к достижению цели</h1></div><div class="node widget-text cr-text widget css12"><p class="textable css13"><span style="font-family: &quot;Raleway Medium&quot;;">Сдавай только на высокие баллы!</span></p></div><div class="node widget-text cr-text widget css12"><p class="textable css13"><span style="font-family: &quot;Raleway Medium&quot;;">Быть умным модно!</span></p></div></div></div><div class="col" style="width: 46.7826%;"><div class="cont"><div class="node widget-button widget css14"><div class="button-container center"><div class="button-wrapper"><button class="btn btn-legacy font-header css15" data-action="modal" data-modal="sidemenu"><div class="pad-left" style="width: 34px;"></div><div class="btn-content"><span class="text">НАЧАТЬ</span></div><div class="pad-right" style="width: 34px;"></div></button></div></div><div class="modal nocolors css16" data-name="sidemenu" data-type="sidemenu" data-duration="250" data-side="right" data-id="#modal-ID" data-uid="ul1zconhxgowgms2l65a_0"></div></div></div></div></div></div></div></div></div><div class="padding_bottom"></div></div><div class="node section-elements section css21 css22" id="about"><div class="corner bottom-float"></div><div class="padding_top"></div><div class="wrapper1"><div class="wrapper2"></div></div><div class="s-elements-container container sm-wrap xs-wrap"><div class="s-elements-content"><div class="cont"></div><div class="s-elements-grid valign-top halign-center use-flex"><div class="s-elements-cell"><div class="s-elements-cellwrapper"><div class="cont cell"><div class="node widget-element widget css23"><div class="wrapper1"><div class="wrapper2"></div></div><div class="cont"><div class="node widget-imagedtext widget css24"><div class="tbl top"><div class="td icon" style="width: 60px;"><div class="wrap"><div><img class="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQAAAAEAAQMAAABmvDolAAAAA1BMVEVMaXFNx9g6AAAAAXRSTlMAQObYZgAAAB9JREFUeAHtwQEBAAAIAqD+r+5GKTAAAAAAAAAAAM8tIQAAAYRf8qsAAAAASUVORK5CYII=" style="width: 60px; height: 60px;"><div data-cut="svg:ul1zcopkzxvg6qnrild_0" class="lazy"></div></div></div></div><div class="td text"><div style="padding-left: 15px;"><div class="cont"></div><h2 class="textable css27" style="margin-bottom: 5px;">Личный кабинет</h2><p class="textable css28" style="margin-top: 5px;">В нем хранится статистика ваших результатов и прогресс</p><div class="cont"></div></div></div></div></div></div></div></div></div></div><div class="s-elements-cell"><div class="s-elements-cellwrapper"><div class="cont cell"><div class="node widget-element widget css23"><div class="wrapper1"><div class="wrapper2"></div></div><div class="cont"><div class="node widget-imagedtext widget css24"><div class="tbl top"><div class="td icon" style="width: 60px;"><div class="wrap"><div><img class="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQAAAAEAAQMAAABmvDolAAAAA1BMVEVMaXFNx9g6AAAAAXRSTlMAQObYZgAAAB9JREFUeAHtwQEBAAAIAqD+r+5GKTAAAAAAAAAAAM8tIQAAAYRf8qsAAAAASUVORK5CYII=" style="width: 60px; height: 60px;"><div data-cut="svg:ul1zcopkzahqbmm0vb66_0" class="lazy"></div></div></div></div><div class="td text"><div style="padding-left: 15px;"><div class="cont"></div><h2 class="textable css27" style="margin-bottom: 5px;">Менеджмент качества</h2><p class="textable css28" style="margin-top: 5px;">Удовлетворение запросов потребителя</p><div class="cont"></div></div></div></div></div></div></div></div></div></div><div class="s-elements-cell"><div class="s-elements-cellwrapper"><div class="cont cell"><div class="node widget-element widget css23"><div class="wrapper1"><div class="wrapper2"></div></div><div class="cont"><div class="node widget-imagedtext widget css24"><div class="tbl top"><div class="td icon" style="width: 60px;"><div class="wrap"><div><img class="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQAAAAEAAQMAAABmvDolAAAAA1BMVEVMaXFNx9g6AAAAAXRSTlMAQObYZgAAAB9JREFUeAHtwQEBAAAIAqD+r+5GKTAAAAAAAAAAAM8tIQAAAYRf8qsAAAAASUVORK5CYII=" style="width: 60px; height: 60px;"><div data-cut="svg:ul1zcopkz98cqlvrdeeq_0" class="lazy"></div></div></div></div><div class="td text"><div style="padding-left: 15px;"><div class="cont"></div><h2 class="textable css27" style="margin-bottom: 5px;">Обслуживание клиентов</h2><p class="textable css28" style="margin-top: 5px;">Услуга соответствуют ожиданиям</p><div class="cont"></div></div></div></div></div></div></div></div></div></div></div><div class="cont"></div></div></div><div class="padding_bottom"></div></div><div class="node section-clear section css29"><div class="padding_top"></div><div class="wrapper1" style="background-image: url(&quot;https://i.1.creatium.io/ef/bf/ae/e2203f7ac9d356307d480004e4479826e4/1903x892q8/frame_6.png&quot;);"><div class="wrapper2"></div></div><div class="container"><div class="cont"><div class="node widget-grid widget css12"><div class="grid valign-middle paddings-20px xs-wrap"><div class="gridwrap"><div class="col" style="width: 53.1884%;"><div class="cont"><div class="node widget-text cr-text widget css19"><h2 class="textable css30"><span style="color: rgb(0, 0, 0);">Чтоб достичь желаемых результатов тебе нужно поставить цели и задачи, наш проект решит эту проблему и предоставит подробную статистику твоих работ.</span><br><br></h2></div></div></div><div class="col" style="width: 46.8116%;"><div class="cont"><div class="node widget-video-button widget css31"><div class="metahtml css32"><div style="text-align: center;">
+  <div class="video-button3-bg">
+    
+    <div cr-video-button="" data-modal="video" class="expan btn-modal lazy"></div>
+    <div class="video-button3-bgimg" style="background-image: url(&quot;https://i.1.creatium.io/7b/98/3a/66cd2530b145224e18c3b46e2715bdb400/441x248q8/maxresdefault.jpg&quot;);"></div>
+    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAJCAYAAAA7KqwyAAAAFklEQVQoU2NkoBAwUqifYdQAhuEQBgANtgAKhIZC3wAAAABJRU5ErkJggg==">
+    <div class="video-button3-wrap">
+      <div cr-video-button="" data-modal="video" class="video-button3 btn-modal lazy">
+        <i class="fa fa-play"></i>
+      </div>
+    </div>
+  </div>
+</div></div><div class="modal nocolors css33" data-name="video" data-type="modal" data-duration="300" data-id="https://www.youtube.com/watch?v=y75VErslEVQ" data-uid="ul1zcopdptdruffk26a_0"></div></div></div></div></div></div></div></div></div><div class="padding_bottom"></div></div><div class="node section-clear section css38"><div class="padding_top"></div><div class="wrapper1" style="background-image: url(&quot;https://i.1.creatium.io/e5/60/42/1a1608e17257b5d2f96d1fb5609272923c/1903x892q8/frame_7.png&quot;);"><div class="wrapper2"></div></div><div class="container"><div class="cont"><div class="node widget-grid widget css12"><div class="grid valign-middle paddings-40px xs-wrap"><div class="gridwrap"><div class="col" style="width: 50%;"><div class="cont"><div class="node widget-metahtml widget css39"><div class="metahtml ul1zcopen572ov8x2679"><div style="height: 0px;">
+  <div class="cont"><div class="node widget-image widget css40 css41"><div class="bgnormal"><img class="" alt="" src="./teacher — progressteacher_files/pic2.svg" style="border-radius: 0px; --width:112px; --height:112px; --ratio:1;"></div><noscript><img src="https://i.1.creatium.io/55/c8/14/69869c9fc2a6b861d78ad106c7725a00f2/pic2.svg#%7B%22size%22:%5B112,112%5D,%22quality%22:8%7D" alt=""></noscript></div></div>
+</div></div></div><div class="node widget-element widget hvr-rotate-mini css42"><div class="wrapper1" style="background-image: url(&quot;https://i.1.creatium.io/e5/72/7e/3dd0df32b89460afc5565d064566268c86/555x545q8/pattern.png&quot;);"><div class="wrapper2"></div></div><div class="cont"><div class="node widget-image widget css43 css44"><div class="bgimage bg-cover" style="background-size: cover; border-radius: 100px; background-image: url(&quot;https://i.1.creatium.io/65/78/f0/a0b8405e72d17f19da5802e06eab2d9bea/740x446q8/uvajenie_v_ofise.png&quot;);"><div class="inner"><img class="" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt=""></div></div><noscript><img src="https://i.1.creatium.io/65/78/f0/a0b8405e72d17f19da5802e06eab2d9bea/uvajenie_v_ofise.png#%7B%22size%22:%5B740,446%5D,%22quality%22:8%7D" alt=""></noscript></div></div></div></div></div><div class="col" style="width: 50%;"><div class="cont"><div class="node widget-text cr-text widget css45"><p class="textable css46">Что мы предлагаем&nbsp;</p></div><div class="node widget-text cr-text widget css47"><h1 class="textable css48">Зовите своих друзей и одноклассников!</h1></div><div class="node widget-list widget css49 css50"><div class="type-img textable css13"><ul><li style="background-image: url(&quot;https://i.1.creatium.io/c2/82/93/e030cd10cd1188e7c5927f6be9f87a3f8a/24x24/Group 5.svg&quot;);">Высококвалифицированные учителя</li><li style="background-image: url(&quot;https://i.1.creatium.io/c2/82/93/e030cd10cd1188e7c5927f6be9f87a3f8a/24x24/Group 5.svg&quot;);">Выгодная цена</li><li style="background-image: url(&quot;https://i.1.creatium.io/c2/82/93/e030cd10cd1188e7c5927f6be9f87a3f8a/24x24/Group 5.svg&quot;);">Подробная статистика результатов</li></ul></div><img class="lazy-loader" src="./teacher — progressteacher_files/Group 5.svg" style="width: 24px;"></div><div class="node widget-button widget css51"><div class="button-container left"><div class="button-wrapper"><a class="btn btn-legacy font-header css52 lazy" data-action="link" data-highlight="true" data-track-active="false" href="https://164b74.creatium.site/progressteacher#modal-form" target="_self"><div class="pad-left" style="width: 34px;"></div><div class="btn-content"><span class="text">Подробнее</span></div><div class="pad-right" style="width: 34px;"></div></a></div></div></div></div></div></div></div></div></div></div><div class="padding_bottom"></div></div><div class="node section-elements section css53 css54"><div class="corner bottom-float"></div><div class="padding_top"></div><div class="s-elements-container container sm-wrap xs-wrap"><div class="s-elements-content"><div class="cont"><div class="node widget-text cr-text widget css55"><h2 class="textable css56">План подписки</h2></div></div><div class="s-elements-grid valign-top halign-center use-table"><div class="s-elements-cell"><div class="s-elements-cellwrapper"><div class="cont cell"><div class="node widget-element widget css57" data-item="[{&quot;name&quot;:&quot;Название товара&quot;,&quot;type&quot;:&quot;title&quot;,&quot;value&quot;:&quot;ВПР&quot;},{&quot;name&quot;:&quot;Цена товара&quot;,&quot;type&quot;:&quot;price&quot;,&quot;value&quot;:&quot;100 Руб.&quot;},{&quot;name&quot;:&quot;Фото товара&quot;,&quot;type&quot;:&quot;photo&quot;,&quot;value&quot;:&quot;https://i.1.creatium.io/40/46/04/41d7ad35c4f2614a7bb1604bee450db796/vpr.jpg#%7B%22size%22:%5B1200,1200%5D,%22quality%22:8%7D&quot;}]"><div class="wrapper1"><div class="wrapper2"></div></div><div class="cont"><div class="node widget-text cr-text widget css58"><h3 class="textable css59">ВПР</h3></div><div class="node widget-text cr-text widget css60"><p class="textable css61">100 Руб.</p></div><div class="node widget-image widget css62 css63"><a class="bgimage bg-contain" href="http://eramis.tilda.ws/reg" target="_blank" style="background-size: contain; border-radius: 0px; background-image: url(&quot;https://i.1.creatium.io/40/46/04/41d7ad35c4f2614a7bb1604bee450db796/222x222q8/vpr.jpg&quot;);"><div class="inner"><img class="" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt=""><div class="proportions"></div></div></a><noscript><img src="https://i.1.creatium.io/40/46/04/41d7ad35c4f2614a7bb1604bee450db796/vpr.jpg#%7B%22size%22:%5B1200,1200%5D,%22quality%22:8%7D" alt=""></noscript></div></div></div></div></div></div><div class="s-elements-cell"><div class="s-elements-cellwrapper"><div class="cont cell"><div class="node widget-element widget css57" data-item="[{&quot;name&quot;:&quot;Название товара&quot;,&quot;type&quot;:&quot;title&quot;,&quot;value&quot;:&quot;DKNY NY8181&quot;},{&quot;name&quot;:&quot;Цена товара&quot;,&quot;type&quot;:&quot;price&quot;,&quot;value&quot;:&quot;52 520 руб&quot;},{&quot;name&quot;:&quot;Фото товара&quot;,&quot;type&quot;:&quot;photo&quot;,&quot;value&quot;:&quot;https://i.1.creatium.io/54/8c/54/d7f7c18dec62d7a52cf71fad46e66ca155/Artboard.png#%7B%22size%22:%5B350,431%5D,%22quality%22:8%7D&quot;}]"><div class="wrapper1"><div class="wrapper2"></div></div><div class="cont"><div class="node widget-text cr-text widget css58"><h3 class="textable css59">ОГЭ</h3></div><div class="node widget-text cr-text widget css60"><p class="textable css61">150 Руб.</p></div><div class="node widget-image widget css62 css63"><a class="bgimage bg-contain" href="http://eramis.tilda.ws/reg" target="_blank" style="background-size: contain; border-radius: 0px; background-image: url(&quot;https://i.1.creatium.io/95/71/e5/596e3c286c0921ec4f8ad03e3c794f54fa/286x161q8/oge2.jpg&quot;);"><div class="inner"><img class="" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt=""><div class="proportions"></div></div></a><noscript><img src="https://i.1.creatium.io/95/71/e5/596e3c286c0921ec4f8ad03e3c794f54fa/oge2.jpg#%7B%22size%22:%5B1680,945%5D,%22quality%22:8%7D" alt=""></noscript></div></div></div></div></div></div><div class="s-elements-cell"><div class="s-elements-cellwrapper"><div class="cont cell"><div class="node widget-element widget css57" data-item="[{&quot;name&quot;:&quot;Название товара&quot;,&quot;type&quot;:&quot;title&quot;,&quot;value&quot;:&quot;DKNY NY8182&quot;},{&quot;name&quot;:&quot;Цена товара&quot;,&quot;type&quot;:&quot;price&quot;,&quot;value&quot;:&quot;53 990 руб&quot;},{&quot;name&quot;:&quot;Фото товара&quot;,&quot;type&quot;:&quot;photo&quot;,&quot;value&quot;:&quot;https://i.1.creatium.io/e5/af/c0/4202c81f21f8ddff8b651397038ee3eac3/Artboard.png#%7B%22size%22:%5B350,431%5D,%22quality%22:8%7D&quot;}]"><div class="wrapper1"><div class="wrapper2"></div></div><div class="cont"><div class="node widget-text cr-text widget css58"><h3 class="textable css59">ЕГЭ</h3></div><div class="node widget-text cr-text widget css60"><p class="textable css61">200 Руб.</p></div><div class="node widget-image widget css62 css63"><a class="bgimage bg-contain" href="http://eramis.tilda.ws/reg" target="_blank" style="background-size: contain; border-radius: 0px; background-image: url(&quot;https://i.1.creatium.io/bb/7b/c4/a653ea28028a10d20bea0bc8a92f1ba6f6/286x136q8/thumb_ege.png&quot;);"><div class="inner"><img class="" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt=""><div class="proportions"></div></div></a><noscript><img src="https://i.1.creatium.io/bb/7b/c4/a653ea28028a10d20bea0bc8a92f1ba6f6/thumb_ege.png#%7B%22size%22:%5B1597,757%5D,%22quality%22:8%7D" alt=""></noscript></div></div></div></div></div></div></div><div class="cont"></div></div></div><div class="padding_bottom"></div></div><div class="node section-clear section css64"><div class="padding_top"></div><div class="container"><div class="cont"><div class="node widget-slider cr-slider widget css58 lazy"><div class="metahtml css65"><div class="slider822-root">
+  <div cr-slider-container="" data-red-libs="swiper-async" data-auto="false" data-loop="true" data-touch="true" data-pause="3000" data-animated="true" data-fixheight="true" class="slider822-container swiper-container"><div class="swiper-wrapper"><div class="swiper-slide active"><div class="cont-wrapper"><div class="cont"><div class="node widget-grid widget css66"><div class="grid valign-middle paddings-30px xs-wrap"><div class="gridwrap"><div class="col" style="width: 50%;"><div class="cont"><div class="node widget-text cr-text widget css58"><h2 class="textable css67"><span style="font-family: &quot;Raleway Medium&quot;;">Первейшее назначение школы, учителя, родителя, общества, государства, состоит не в механической передаче знаний, а в развитии способностей, интересов, таланта, воображения, силы воли, интеллекта, души подрастающего поколения. У которого ребенка должна быть своя траектория развития. Будущее образование - за этим.</span></h2></div><div class="node widget-text cr-text widget css68"><h3 class="textable css69">Сосин Олег Константинович</h3></div><div class="node widget-text cr-text widget css58"><p class="textable css70">Заслуженный учитель РС(Я) 1996; Отличник образования РСФСР 1984; Отличник народного образования СССР 1986; Стипендиат фонда "Дети Саха Азия"; дважды Стипендиат Соросовского гранта; Обладатель настольной медали Президента РС(Я) Николаева М.Е. "За качество знаний"; Почетный гражданин Сунтарского улуса; Учитель учителей 2005; Высшая общественная награда "Лучшие люди России" 2004; Заслуженный учитель РФ 2005; Медаль "Гражданская доблесть" 2009; Отличник профессионального образования РС(Я) 2009; Знак отличия "Учительская слава" 2010; Орден Дружбы 2017; Звание "Народный учитель РС(Я), 2021.</p></div></div></div><div class="col" style="width: 50%;"><div class="cont"><div class="node widget-element widget css71"><div class="wrapper1" style="background-image: url(&quot;https://i.1.creatium.io/2b/05/dd/e19858a577311697a99992506258ab289c/430x270/Group 7.svg&quot;);"><div class="wrapper2"></div></div><div class="cont"><div class="node widget-element widget css72"><div class="wrapper1"><div class="wrapper2"></div></div><div class="cont"><div class="node widget-image widget css24 css73"><div class="bgimage bg-cover" style="background-size: cover; border-radius: 0px; background-image: url(&quot;https://i.1.creatium.io/9d/64/d4/8ed25dc7fa87e7ce1dd22a61f3451e25de/366x541q8/vi.png&quot;);"><div class="inner"><img class="" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt=""></div></div><noscript><img src="https://i.1.creatium.io/9d/64/d4/8ed25dc7fa87e7ce1dd22a61f3451e25de/vi.png#%7B%22size%22:%5B417,616%5D,%22quality%22:8%7D" alt=""></noscript></div></div></div></div></div></div></div></div></div></div></div></div></div></div></div>
+  <div class="slider822-buttons">
+    <div cr-slider-previous="" onselectstart="return false" onmousedown="return false" class="slider822-previous">
+      <i class="fa fa-chevron-left"></i>
+    </div>
+    <div cr-slider-next="" onselectstart="return false" onmousedown="return false" class="slider822-next">
+      <i class="fa fa-chevron-right"></i>
+    </div>
+  </div>
+</div></div></div></div></div><div class="padding_bottom"></div></div><div class="node section-elements section css74 css75"><div class="corner bottom-float"></div><div class="padding_top"></div><div class="s-elements-container container sm-wrap xs-wrap"><div class="s-elements-content"><div class="cont"><div class="node widget-text cr-text widget css76"><p class="textable css77"><strong>Эффективность, постановка задач</strong></p></div><div class="node widget-text cr-text widget css78"><h2 class="textable css79"><strong><strong>Инструменты</strong> для <strong>управления</strong></strong></h2></div></div><div class="s-elements-grid valign-top halign-center use-flex"><div class="s-elements-cell"><div class="s-elements-cellwrapper"><div class="cont cell"><div class="node widget-element widget css80"><div class="cont"><div class="node widget-image widget css66 css81"><div class="bgnormal"><img class="" alt="" src="./teacher — progressteacher_files/google.png" style="border-radius: 0px; --width:220px; --height:74px; --ratio:2.97297;"></div><noscript><img src="https://i.1.creatium.io/d1/f6/56/03e9257c3aa4ed9090a79d9287c3ed5abc/google.png#%7B%22size%22:%5B220,74%5D,%22quality%22:8%7D" alt=""></noscript></div></div></div></div></div></div><div class="s-elements-cell"><div class="s-elements-cellwrapper"><div class="cont cell"><div class="node widget-element widget css80"><div class="cont"><div class="node widget-image widget css66 css81"><div class="bgnormal"><img class="" alt="" src="./teacher — progressteacher_files/youtube.png" style="border-radius: 0px; --width:220px; --height:49px; --ratio:4.4898;"></div><noscript><img src="https://i.1.creatium.io/bc/9a/25/77c64a40d8539964786ee10d8fb442c479/youtube.png#%7B%22size%22:%5B220,49%5D,%22quality%22:8%7D" alt=""></noscript></div></div></div></div></div></div></div><div class="cont"><div class="node widget-button widget css82"><div class="button-container center"><div class="button-wrapper"><a class="btn btn-legacy font-header css83 lazy" data-action="link" data-highlight="true" data-track-active="false" href="https://164b74.creatium.site/progressteacher#modal-form" target="_self"><div class="pad-left" style="width: 34px;"></div><div class="btn-content"><span class="text">Подробнее</span></div><div class="pad-right" style="width: 34px;"></div></a></div></div></div></div></div></div><div class="padding_bottom"></div></div><div class="node section-clear section font-text-ptsanscaption font-header-ralewaybold css84" data-common="ul1y82jmk7zlac3zgefe"><div class="padding_top"></div><div class="wrapper1"><div class="wrapper2"></div></div><div class="container"><div class="cont"><div class="node widget-grid widget css85"><div class="grid valign-middle paddings-20px xs-wrap"><div class="gridwrap"><div class="col" style="width: 28.2528%;"><div class="cont"><div class="node widget-imagedtext widget css86"><div class="tbl middle xs-force-center"><div class="td icon" style="width: 32px;"><div class="wrap"><img class="" src="./teacher — progressteacher_files/pomestit_vstroenniy_smart_obekt.png" style="width: 32px; height: 20.2623px;"></div></div><div class="td text"><div style="padding-left: 4px;"><div class="cont"></div><p class="textable css87" style="margin-top: 0px;">ProgTeacher</p><div class="cont"></div></div></div></div></div><div class="node widget-text cr-text widget css88"><p class="textable css89">© Progress Teacher</p></div></div></div><div class="col" style="width: 71.7472%;"><div class="cont"><div class="node widget-text cr-text widget css85"><p class="textable css90"><strong>8 (914) 828-84-65</strong></p></div></div></div></div></div></div></div></div><div class="padding_bottom"></div></div><div class="node section section-helper css91"></div>
+<!-- CREATIUM FOOTER -->
+    <div id="powered-by" style="text-align: center; padding: 15px;">
+        Работает на <a href="https://creatium.io/">Creatium</a>    </div>
+
+<!-- CORE -->
+<script type="text/javascript" src="./teacher — progressteacher_files/vendors-sync.js.Без названия"></script>
+<!-- DEFER -->
+    
+<!-- PLUGINS -->
+</div>
+
+</body><app-content ng-version="13.2.0"></app-content></html>
